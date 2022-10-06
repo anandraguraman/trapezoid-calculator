@@ -6,4 +6,4 @@ let AB = base_A + Base_B
 let AB2 = AB + 2
 let Area_of_trapezoid = AB2 * height
 game.splash("I think")
-game.splash("final answer" + Area_of_trapezoid, "cm")
+game.splash("final answer" + ("" + Area_of_trapezoid), "cm")
